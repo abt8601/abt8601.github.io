@@ -5,13 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta http-equiv="refresh" content="5;url=http://www.youtube.com/watch?v=dQw4w9WgXcQ">
-
     <title>Under Construction</title>
 </head>
 
 <body>
     <h1>Under Construction (Indefinitely)</h1>
+
+    <script>
+        function rickroll() {
+            const video_id = Math.random() < 0.5 ? "dQw4w9WgXcQ" : "yndqbqysdVE";
+            window.location.href = `https://www.youtube.com/watch?v=${video_id}`;
+        }
+
+        setTimeout(rickroll, 5000);
+    </script>
 </body>
 
 </html>
